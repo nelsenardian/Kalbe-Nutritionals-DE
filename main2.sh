@@ -17,3 +17,5 @@ else
   echo "Directory $name_of_directory created."
   exit 1
 fi
+
+
