@@ -36,3 +36,4 @@ finally:
     # Menutup koneksi
     cursor.close()
     conn.close()
+    

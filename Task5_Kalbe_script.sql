@@ -8,7 +8,6 @@ CREATE TABLE customer_orders (
     salesman_id INT
 );
 
-
 -- Insert data ke dalam tabel
 INSERT INTO customer_orders (order_no, purchase_amount, order_date, customer_id, salesman_id)
 VALUES

@@ -38,7 +38,7 @@ WHERE Item_total = (
 #insert another Item_name with Item_code of 2343 into the table? 
 INSERT INTO Inventory (Item_code, Item_name, Item_price, Item_total)
 VALUES (2343, 'Nutrive Benecol 100ML', 20000, 30)
--- Jawaban: membuat Item_name lain dengan menggunakan Item_code '2343' yang sudah ada, tidak dapat dilakukan
+-- Jawaban: Membuat Item_name lain dengan menggunakan Item_code '2343' yang sudah ada, tidak dapat dilakukan
 -- hal tersebut karena Item_code '2343' tersebut sudah dipakai untuk item lain, dan PrimaryKey(PK) hanya dapat menampung 1 data barang saja.
 -- sehingga jika ingin mendaftarkan Item_name harus didaftarkan dengan Item_code yang baru 
 
