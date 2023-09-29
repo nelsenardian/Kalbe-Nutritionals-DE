@@ -14,11 +14,5 @@ else
 fi
 
 
-
-
-
-
-
-
 # Crontab entry to run this script at 07:00 AM daily
 # 0 7 * * * root main1.sh
