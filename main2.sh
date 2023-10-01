@@ -16,7 +16,7 @@ if [ -d "$dir" ]; then
   exit 1
 fi
 
-#Check if the source Excel file exists
+#Check if the source excel file exists
 if [ -e "$source_dir/$filename_excel" ]; then
   cp "$source_dir/$filename_excel" "$dir/"
   echo "$filename_excel copied successfully"
